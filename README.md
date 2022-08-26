@@ -1,6 +1,6 @@
 OTA Manager for AOSP
 =======
-Simple application to download and apply OTA packages which is compatible with AOSP environment.
+Simple application to download and apply OTA packages which is compatible with AOSP environment. This package is adapted from the Lineage project. 
 
 
 Server requirements

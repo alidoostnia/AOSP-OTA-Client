@@ -35,3 +35,5 @@ The `version` attribute is the string to be compared with the `ro.build.version.
 
 Additional attributes are ignored.
 
+Note that the upgrading feature is unlocked by the new changes applied in this project.
+

@@ -35,7 +35,10 @@ The `version` attribute is the string to be compared with the `ro.build.version.
 
 Additional attributes are ignored.
 
-Note that the upgrading feature is unlocked by the new changes applied in this project. It means that the OTA manager works for both incremental and full updates!
+What's New?
+-------------------
+Compatibility issues with the AOSP project is addressed in all levels from the presentation layer to the controllers and JAVA libraries.
+The upgrading feature is unlocked by the new changes applied in this project. It means that the OTA manager works for both incremental and full updates!
 
 How to Build
 -------------------

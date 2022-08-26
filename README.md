@@ -35,5 +35,5 @@ The `version` attribute is the string to be compared with the `ro.build.version.
 
 Additional attributes are ignored.
 
-Note that the upgrading feature is unlocked by the new changes applied in this project.
+Note that the upgrading feature is unlocked by the new changes applied in this project. It means that the OTA manager works for both incremental and full updates!
 

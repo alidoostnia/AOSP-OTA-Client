@@ -1,4 +1,4 @@
-Updater
+OTA Manager for AOSP
 =======
 Simple application to download and apply OTA packages which is compatible with AOSP environment.
 

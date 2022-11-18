@@ -1,0 +1,17 @@
+digraph "org.lineageos.updater.misc.Utils.isCompatible"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="org.lineageos.updater.misc.\lUtils.isCompatible",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="org.lineageos.updater.model.\lUpdateBaseInfo.getName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$interfaceorg_1_1lineageos_1_1updater_1_1model_1_1_update_base_info.html#ab631c3f612336f7c732feedd892e9347",tooltip=" "];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="org.lineageos.updater.model.\lUpdateBaseInfo.getTimestamp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$interfaceorg_1_1lineageos_1_1updater_1_1model_1_1_update_base_info.html#a986afc0678f9135696e25f3f1561704c",tooltip=" "];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="org.lineageos.updater.model.\lUpdateBaseInfo.getType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$interfaceorg_1_1lineageos_1_1updater_1_1model_1_1_update_base_info.html#ab7dee2bb4fae56f9b825bebab6e290a3",tooltip=" "];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="org.lineageos.updater.model.\lUpdateBaseInfo.getVersion",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$interfaceorg_1_1lineageos_1_1updater_1_1model_1_1_update_base_info.html#a369407f3f3deb5bc5f62e4889829d9d2",tooltip=" "];
+}

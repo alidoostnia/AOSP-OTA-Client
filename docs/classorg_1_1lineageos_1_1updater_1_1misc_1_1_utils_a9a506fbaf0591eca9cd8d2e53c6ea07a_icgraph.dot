@@ -1,0 +1,22 @@
+digraph "org.lineageos.updater.misc.Utils.getUpdateCheckSetting"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="org.lineageos.updater.misc.\lUtils.getUpdateCheckSetting",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="org.lineageos.updater.misc.\lUtils.getUpdateCheckInterval",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1misc_1_1_utils.html#a12c5e178901cb8ad981762407fb447bd",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="org.lineageos.updater.Updates\lCheckReceiver.scheduleRepeatingUpdatesCheck",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1_updates_check_receiver.html#aa623fc731cd631e63b67db91bfd9982e",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="org.lineageos.updater.Updates\lCheckReceiver.onReceive",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1_updates_check_receiver.html#ad8f90b6b49a0c878bddb97e8f99dd1b2",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="org.lineageos.updater.Updates\lCheckReceiver.updateRepeatingUpdatesCheck",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1_updates_check_receiver.html#aab972f00edc84afaf24dd290dbd0ecb9",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="org.lineageos.updater.misc.\lUtils.isUpdateCheckEnabled",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1misc_1_1_utils.html#a89fa75039cec0415fd7fc3b49b21b6b8",tooltip=" "];
+  Node6 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node6 -> Node3 [dir="back",color="steelblue1",style="solid"];
+}

@@ -1,0 +1,13 @@
+digraph "org.lineageos.updater.misc.StringGenerator.getDateLocalizedUTC"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="org.lineageos.updater.misc.\lStringGenerator.getDateLocalizedUTC",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="org.lineageos.updater.Updates\lListAdapter.onBindViewHolder",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1_updates_list_adapter.html#af35376a6443b20ffac9b466e10ff338c",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="org.lineageos.updater.Updates\lActivity.onCreate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1_updates_activity.html#a967ff08992d3e61358242e5623b0417a",tooltip=" "];
+}

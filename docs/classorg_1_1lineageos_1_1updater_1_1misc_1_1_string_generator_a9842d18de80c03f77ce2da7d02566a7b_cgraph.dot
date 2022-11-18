@@ -1,0 +1,11 @@
+digraph "org.lineageos.updater.misc.StringGenerator.getTimeLocalized"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="org.lineageos.updater.misc.\lStringGenerator.getTimeLocalized",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="org.lineageos.updater.misc.\lStringGenerator.getCurrentLocale",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1misc_1_1_string_generator.html#ac7a0eee1d0057a0c89c685bfcd5c92df",tooltip=" "];
+}

@@ -1,0 +1,20 @@
+digraph "org.lineageos.updater.controller.UpdaterController.isDownloading"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="org.lineageos.updater.controller.\lUpdaterController.isDownloading",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="org.lineageos.updater.controller.\lUpdaterController.deleteUpdate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1controller_1_1_updater_controller.html#a4746a38468617910cd8c28db5ae6b1ef",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="org.lineageos.updater.controller.\lUpdaterController.pauseDownload",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1controller_1_1_updater_controller.html#aa5a479a72993c26d02d419d461e42cad",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="org.lineageos.updater.controller.\lUpdaterService.onStartCommand",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1controller_1_1_updater_service.html#ad3af9767ebb76b9c4cdb8a6d9368137f",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="org.lineageos.updater.controller.\lUpdaterController.resumeDownload",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1controller_1_1_updater_controller.html#a10b1e11c47fce1c6c37c79c5d71ceb4a",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="org.lineageos.updater.controller.\lUpdaterController.startDownload",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1controller_1_1_updater_controller.html#ade8d385713d383297ec442444c1a7585",tooltip=" "];
+}

@@ -1,0 +1,11 @@
+digraph "org.lineageos.updater.model.UpdateBase.getName"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="org.lineageos.updater.model.\lUpdateBase.getName",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="org.lineageos.updater.controller.\lUpdaterController.startDownload",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1controller_1_1_updater_controller.html#ade8d385713d383297ec442444c1a7585",tooltip=" "];
+}

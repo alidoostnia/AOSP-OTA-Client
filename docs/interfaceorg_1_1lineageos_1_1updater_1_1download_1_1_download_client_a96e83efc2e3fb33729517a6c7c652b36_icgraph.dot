@@ -1,0 +1,13 @@
+digraph "org.lineageos.updater.download.DownloadClient.resume"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="org.lineageos.updater.download.\lDownloadClient.resume",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="org.lineageos.updater.controller.\lUpdaterController.resumeDownload",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1controller_1_1_updater_controller.html#a10b1e11c47fce1c6c37c79c5d71ceb4a",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="org.lineageos.updater.controller.\lUpdaterService.onStartCommand",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1controller_1_1_updater_service.html#ad3af9767ebb76b9c4cdb8a6d9368137f",tooltip=" "];
+}

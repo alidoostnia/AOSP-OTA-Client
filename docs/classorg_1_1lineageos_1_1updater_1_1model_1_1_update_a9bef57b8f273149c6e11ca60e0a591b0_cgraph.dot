@@ -1,0 +1,27 @@
+digraph "org.lineageos.updater.model.Update.Update"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="org.lineageos.updater.model.\lUpdate.Update",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="org.lineageos.updater.model.\lUpdateInfo.getAvailableOnline",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$interfaceorg_1_1lineageos_1_1updater_1_1model_1_1_update_info.html#af5a548a31c180d2ccd89992209f9c177",tooltip=" "];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="org.lineageos.updater.model.\lUpdateInfo.getEta",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$interfaceorg_1_1lineageos_1_1updater_1_1model_1_1_update_info.html#a87e1603be1dc18dce2d8973e67128cdf",tooltip=" "];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="org.lineageos.updater.model.\lUpdateInfo.getFile",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$interfaceorg_1_1lineageos_1_1updater_1_1model_1_1_update_info.html#a84704086c0dc3183f302dcb65ac1b866",tooltip=" "];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="org.lineageos.updater.model.\lUpdateInfo.getFinalizing",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$interfaceorg_1_1lineageos_1_1updater_1_1model_1_1_update_info.html#a1c321bca7f480c26fbef01d6db96b134",tooltip=" "];
+  Node1 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="org.lineageos.updater.model.\lUpdateInfo.getInstallProgress",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$interfaceorg_1_1lineageos_1_1updater_1_1model_1_1_update_info.html#aa1c55255743ad23980040f8240b43263",tooltip=" "];
+  Node1 -> Node7 [color="steelblue1",style="solid"];
+  Node7 [label="org.lineageos.updater.model.\lUpdateInfo.getPersistentStatus",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$interfaceorg_1_1lineageos_1_1updater_1_1model_1_1_update_info.html#a828a1fea5b309b241bd6bd31609970f8",tooltip=" "];
+  Node1 -> Node8 [color="steelblue1",style="solid"];
+  Node8 [label="org.lineageos.updater.model.\lUpdateInfo.getProgress",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$interfaceorg_1_1lineageos_1_1updater_1_1model_1_1_update_info.html#ae8e165f971ffd3a8c57ea146805a5b90",tooltip=" "];
+  Node1 -> Node9 [color="steelblue1",style="solid"];
+  Node9 [label="org.lineageos.updater.model.\lUpdateInfo.getSpeed",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$interfaceorg_1_1lineageos_1_1updater_1_1model_1_1_update_info.html#a725ddc0c46cc21f59c34b6485d71ece3",tooltip=" "];
+  Node1 -> Node10 [color="steelblue1",style="solid"];
+  Node10 [label="org.lineageos.updater.model.\lUpdateInfo.getStatus",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$interfaceorg_1_1lineageos_1_1updater_1_1model_1_1_update_info.html#a64bc1aee46da5b186740cf1632157be4",tooltip=" "];
+}

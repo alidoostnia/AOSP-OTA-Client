@@ -1,0 +1,15 @@
+digraph "org.lineageos.updater.controller.UpdaterService.onCreate"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="org.lineageos.updater.controller.\lUpdaterService.onCreate",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="org.lineageos.updater.controller.\lUpdaterController.getInstance",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1controller_1_1_updater_controller.html#ae5b8f8bbfda38aa2e2077204c8791c52",tooltip=" "];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="org.lineageos.updater.model.\lUpdateInfo.getStatus",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$interfaceorg_1_1lineageos_1_1updater_1_1model_1_1_update_info.html#a64bc1aee46da5b186740cf1632157be4",tooltip=" "];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="org.lineageos.updater.controller.\lUpdaterController.getUpdate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1controller_1_1_updater_controller.html#a0fbc716658455e3a8d164e9a417feaec",tooltip=" "];
+}

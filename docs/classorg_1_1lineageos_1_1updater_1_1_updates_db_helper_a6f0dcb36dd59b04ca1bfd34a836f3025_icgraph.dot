@@ -1,0 +1,13 @@
+digraph "org.lineageos.updater.UpdatesDbHelper.onCreate"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="org.lineageos.updater.Updates\lDbHelper.onCreate",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="org.lineageos.updater.Updates\lDbHelper.onUpgrade",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1_updates_db_helper.html#aa1db366b99c0314ef72ef2cd179bd6db",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="org.lineageos.updater.Updates\lDbHelper.onDowngrade",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1_updates_db_helper.html#a699df4fdb1b38fca9e121c63a5a94276",tooltip=" "];
+}

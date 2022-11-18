@@ -1,0 +1,33 @@
+digraph "org.lineageos.updater.controller.UpdaterController.resumeDownload"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="org.lineageos.updater.controller.\lUpdaterController.resumeDownload",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="org.lineageos.updater.download.\lDownloadClient.Builder.build",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1download_1_1_download_client_1_1_builder.html#a886b5124e823347a0cbb735bae71d797",tooltip=" "];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="org.lineageos.updater.model.\lUpdateBase.getDownloadUrl",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1model_1_1_update_base.html#a78e441788ee6ba7c9380d9576a5aed19",tooltip=" "];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="org.lineageos.updater.model.\lUpdate.getFile",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1model_1_1_update.html#a80ea64d79379427dcbb5e04b16219905",tooltip=" "];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="org.lineageos.updater.model.\lUpdateBase.getFileSize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1model_1_1_update_base.html#adc14f9284745de8716e44c94963558f1",tooltip=" "];
+  Node1 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="org.lineageos.updater.controller.\lUpdaterController.isDownloading",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1controller_1_1_updater_controller.html#ae4409ae0e1b0620b8cdfdf6bbdd6f6e8",tooltip=" "];
+  Node1 -> Node7 [color="steelblue1",style="solid"];
+  Node7 [label="org.lineageos.updater.download.\lDownloadClient.resume",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$interfaceorg_1_1lineageos_1_1updater_1_1download_1_1_download_client.html#a96e83efc2e3fb33729517a6c7c652b36",tooltip=" "];
+  Node1 -> Node8 [color="steelblue1",style="solid"];
+  Node8 [label="org.lineageos.updater.download.\lDownloadClient.Builder.setDestination",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1download_1_1_download_client_1_1_builder.html#a24fe743d094e710b0a66bf969a26eb99",tooltip=" "];
+  Node1 -> Node9 [color="steelblue1",style="solid"];
+  Node9 [label="org.lineageos.updater.download.\lDownloadClient.Builder.setDownload\lCallback",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1download_1_1_download_client_1_1_builder.html#a1e0bb0a6df7fbbdf971c216590331837",tooltip=" "];
+  Node1 -> Node10 [color="steelblue1",style="solid"];
+  Node10 [label="org.lineageos.updater.download.\lDownloadClient.Builder.setProgress\lListener",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1download_1_1_download_client_1_1_builder.html#af74d2fdb024e31fe028431d80772f999",tooltip=" "];
+  Node1 -> Node11 [color="steelblue1",style="solid"];
+  Node11 [label="org.lineageos.updater.model.\lUpdate.setStatus",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1model_1_1_update.html#acee1a42bc42dbd4ffdb572d2cff3eb69",tooltip=" "];
+  Node1 -> Node12 [color="steelblue1",style="solid"];
+  Node12 [label="org.lineageos.updater.download.\lDownloadClient.Builder.setUrl",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1download_1_1_download_client_1_1_builder.html#a4a3cca1b1365831ec73de1f6c1697f28",tooltip=" "];
+  Node1 -> Node13 [color="steelblue1",style="solid"];
+  Node13 [label="org.lineageos.updater.download.\lDownloadClient.Builder.setUseDuplicateLinks",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1download_1_1_download_client_1_1_builder.html#a170fda0e142224e6fd1b7b4da5f45d58",tooltip=" "];
+}

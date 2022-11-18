@@ -1,0 +1,19 @@
+digraph "org.lineageos.updater.controller.UpdaterController.deleteUpdate"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="org.lineageos.updater.controller.\lUpdaterController.deleteUpdate",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="org.lineageos.updater.model.\lUpdate.getAvailableOnline",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1model_1_1_update.html#ac15755028361d83a2085b6f2299806c1",tooltip=" "];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="org.lineageos.updater.controller.\lUpdaterController.isDownloading",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1controller_1_1_updater_controller.html#ae4409ae0e1b0620b8cdfdf6bbdd6f6e8",tooltip=" "];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="org.lineageos.updater.model.\lUpdate.setPersistentStatus",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1model_1_1_update.html#af492c799f50a72715b98f2f6564bdb5c",tooltip=" "];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="org.lineageos.updater.model.\lUpdate.setProgress",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1model_1_1_update.html#a8cf98b0a4d5c16bb1dcc7f8490c996da",tooltip=" "];
+  Node1 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="org.lineageos.updater.model.\lUpdate.setStatus",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1model_1_1_update.html#acee1a42bc42dbd4ffdb572d2cff3eb69",tooltip=" "];
+}

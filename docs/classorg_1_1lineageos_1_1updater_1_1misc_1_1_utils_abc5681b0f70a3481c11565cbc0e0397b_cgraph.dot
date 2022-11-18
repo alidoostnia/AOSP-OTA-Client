@@ -1,0 +1,18 @@
+digraph "org.lineageos.updater.misc.Utils.cleanupDownloadsDir"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="org.lineageos.updater.misc.\lUtils.cleanupDownloadsDir",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="org.lineageos.updater.misc.\lUtils.getDownloadPath",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1misc_1_1_utils.html#a83743c2420d512349f9495a21fcc2018",tooltip=" "];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="org.lineageos.updater.model.\lUpdate.getFile",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1model_1_1_update.html#a80ea64d79379427dcbb5e04b16219905",tooltip=" "];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="org.lineageos.updater.Updates\lDbHelper.getUpdates",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1_updates_db_helper.html#ad29749f303645d05065f182cf91ec3e9",tooltip=" "];
+  Node4 -> Node4 [color="steelblue1",style="solid"];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="org.lineageos.updater.misc.\lUtils.removeUncryptFiles",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classorg_1_1lineageos_1_1updater_1_1misc_1_1_utils.html#aedfde6506e3a78b2905d8f6efb6ffadd",tooltip=" "];
+}

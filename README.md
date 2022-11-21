@@ -43,6 +43,6 @@ The upgrading feature is unlocked by the new changes applied in this project. It
 How to Build
 -------------------
 Put the project in your `/packages/apps` directory. Then, edit the Android.bp file if necessary. Edit the root make file of your AOSP project, and insert the following line anywhere in the file (e.g., in this file `/build/target/product/aosp_x86_64.mk`):
-`PRODUCT_PACKAGES := \ Updater`
+`PRODUCT_PACKAGES := \ Updater` 
 
 the `mm Updater` command builds the incremental changes, and prepare the package to be added to your base image. Then, by running the `m` command, the incremental change is added to the project. 

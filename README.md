@@ -46,3 +46,5 @@ Put the project in your `/packages/apps` directory. Then, edit the Android.bp fi
 `PRODUCT_PACKAGES := \ Updater` 
 
 the `mm Updater` command builds the incremental changes, and prepare the package to be added to your base image. Then, by running the `m` command, the incremental change is added to the project. 
+
+- The project can be adapted to higher versions of AOSP; however, new changes should be applied.

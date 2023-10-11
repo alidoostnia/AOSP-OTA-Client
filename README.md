@@ -1,4 +1,4 @@
-OTA Manager for AOSP Client
+The OTA Manager for AOSP Client
 =======
 Simple application to download and apply OTA packages which is compatible with AOSP environment. This package is adapted from the Lineage project. 
 
